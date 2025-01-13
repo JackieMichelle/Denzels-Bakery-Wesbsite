@@ -1,0 +1,92 @@
+/*1) Add color to the background */
+body {
+background-color: rgba(255, 249, 227, 0.19);
+}
+
+/*2) Change the color and any fonts*/
+p {
+  color:#80b380;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*3)Add color and change the font size, etc..*/
+h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: #b3d9b3;
+}
+
+/*3)Add text align and change the font size*/
+h2{
+ font-family: verdana; 
+  font-size: 25px;
+  color: #73a284;
+  text-align: center;
+}
+/*4)Add font-family and change the color */
+h3{
+  font-family:cursive;
+  color: #88a288;
+}
+
+/*5)Add text-align and any other types of font */
+h4{
+  font-family: verdana;
+  color: rgba(159, 196, 159, 0.88);
+  font-size: 13px;
+  text-align:center;
+}
+
+/*5)Add text align and any other types of font */
+h5{
+  font-family: Verdana;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(141, 184, 141);
+}
+
+/*6)Add font-family, color, and font-size */
+li{
+  font-family: verdana;
+  color: rgb(155, 177, 140);
+  font-size:14px;
+}
+
+/*7)Add images and adjust to your liking*/
+img {
+  float: right;
+  width:250px;
+  margin:10px;
+  border-radius: 25px;
+  border:dotted;
+  color:#ccd498;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-card{
+  width: 325px;
+  border-style:dashed;
+  border-width: 4px;
+  border-color: #84a987;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-card img{
+  width: 95%;
+  border-style: dotted
+  border-width:2px;
+  margin: 10px;
+}
+
